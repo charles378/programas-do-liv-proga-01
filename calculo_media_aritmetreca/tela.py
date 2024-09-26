@@ -4,7 +4,7 @@ from algoritmo import media
 
 
 def main(page: ft.Page):
-    page.horizontal_alignment = ft.VerticalAlignment.CENTER
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
     def medi(e):
         page.clean
