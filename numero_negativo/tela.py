@@ -3,12 +3,13 @@ import algoritmo
 
 
 def main(page: ft.Page):
-    lista = ()
+    lista = []
 
 
     def ver(e):
-        num = int(mun)
-        algoritmo.ver(num)
+        num = int(mun.value)
+        m = algoritmo.ver(num)
+        page.add(ft.Text(f'o {m}'))
 
     for c in range(0,5):
         mun = ft.TextField(label=f'digite o {c + 1}ª')
