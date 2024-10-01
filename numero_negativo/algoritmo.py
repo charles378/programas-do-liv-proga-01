@@ -1,12 +1,9 @@
-def ver(lis):
-    ner = list()
-    ner.append(lis)
-    j = verr(ner)
-    return j
-    
-
 def verr(n):
+
+    lista2 = []
     for i in n:
         if i < 0:
-            k = i
-    return k
+            lista2.append(i)
+    
+    return lista2
+
